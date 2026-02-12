@@ -9,6 +9,7 @@ spec:
     metadata:
       labels:
         kubevirt.io/domain: ubuntu-from-git
+        test-label: works
     spec:
       domain:
         cpu:
