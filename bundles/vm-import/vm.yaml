@@ -14,6 +14,8 @@ spec:
         cpu:
           cores: 2
         resources:
+          limits:
+            memory: 4Gi
           requests:
             memory: 4Gi
         devices:
@@ -31,4 +33,3 @@ spec:
         - name: rootdisk
           dataVolume:
             name: ubuntu-rootdisk
-
